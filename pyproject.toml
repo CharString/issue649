@@ -1,0 +1,20 @@
+[project]
+name = "issue649"
+version = "0.0-alpha"
+description = ""
+authors = [
+    {name = "Chris Wesseling", email = "Chris.Wesseling@cwi.nl"},
+]
+dependencies = []
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[project.urls]
+homepage = ""
+
+[tool]
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
